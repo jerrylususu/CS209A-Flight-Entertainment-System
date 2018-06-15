@@ -25,8 +25,9 @@ Special Thanks to Al-assad @ Github for his/her project "Simple-Media-Player". [
 ## How to config
 1. Unzip the `CS209A Group8 jars.zip` to some directory.
 2. Set the system environment variable: "moiveconf", with the value of the path to the external configuration file. (conf.properities)
-3. Edit the config file, and make sure the airline logo, movie folder, genre file all exist on the directory described in the config file. (PS: use "/" as the path delimiter.)
-4. Run the `System.jar` file (PS: make sure to use Java 8 runtime, or it won't start.)
+3. Copy `example-folder` to some outside path, and use it as the example folder structure.
+4. Edit the config file, and make sure the airline logo, movie folder, genre file all exist on the directory described in the config file. (PS: use "/" as the path delimiter.)
+5. Run the `System.jar` file (PS: make sure to use Java 8 runtime, or it won't start.)
 
 ## Group Work Distribution
 All: UI Design, Control Flow Planning

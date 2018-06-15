@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane fx:id="ap" prefHeight="720" prefWidth="1080" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.PlayerController">
+   <children>
+      <VBox fx:id="vb" alignment="CENTER" prefHeight="720.0" prefWidth="1080.0">
+         <children>
+            <MediaView fx:id="mainplay" fitHeight="720.0" fitWidth="1080.0" onMouseClicked="#mediactrl" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaFX2">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFX2</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="height" value="720" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Onboard Entertainment System" />
+        <option name="vendor" value="CS209A 2018 Spring Group 8" />
+        <option name="version" value="" />
+        <option name="width" value="1080" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFX2.jar">
+        <element id="module-output" name="JavaFX2" />
+        <element id="library" level="project" name="com.univocity:univocity-parsers:2.6.3" />
+        <element id="library" level="project" name="jfoenix-8.0.4" />
+        <element id="library" level="project" name="org.jsoup:jsoup:1.11.3" />
+        <element id="library" level="project" name="commons-io:commons-io:2.6" />
+        <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+      </element>
+    </root>
+  </artifact>
+</component>

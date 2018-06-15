@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" stylesheets="@../resources/buttons.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.MovieListController">
+   <left>
+      <ListView fx:id="movielv" prefHeight="200.0" prefWidth="300.0" stylesheets="@../resources/hideHorizontalScroll.css" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <GridPane fx:id="topgp" prefHeight="70.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox fx:id="toplefthb" alignment="CENTER" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="backbtn" onAction="#backBtnClicked" onMouseClicked="#backBtnClicked" text="&lt;-" />
+                  <ImageView fx:id="airlinelogoim" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </HBox>
+            <HBox fx:id="toprighthb" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <JFXButton fx:id="queryBTN" onAction="#goQueryAgain" onMouseClicked="#goQueryAgain" text="%filter" />
+                  <JFXButton fx:id="langselectbtn" onMousePressed="#goPlay" text="aaa" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </top>
+   <center>
+      <VBox fx:id="middlevb" alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="movieim" fitHeight="660.0" fitWidth="440.0" onMouseClicked="#goPlay" onTouchPressed="#goPlay" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <ScrollPane fx:id="infoSP" hbarPolicy="NEVER" hmax="0.0" prefWidth="310.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox maxWidth="1.7976931348623157E308" prefWidth="300.0" spacing="5.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="gptitle" text="%movie_title" />
+                  <Label fx:id="gptitletext" maxWidth="1.7976931348623157E308" text="Label" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gpgenre" text="%movie_genre" />
+                  <Label fx:id="gpgenretext" maxWidth="1.7976931348623157E308" text="Label">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gpdirector" text="%movie_director" />
+                  <Label fx:id="gpdirectortext" maxWidth="1.7976931348623157E308" text="Label" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gpactor" text="%movie_actor" />
+                  <Label fx:id="gpactortext" maxWidth="1.7976931348623157E308" text="Label" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gplength" text="%movie_length" />
+                  <Label fx:id="gplengthtext" maxWidth="1.7976931348623157E308" text="Label" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gpcountry" text="%movie_country" />
+                  <Label fx:id="gpcountrytext" maxWidth="1.7976931348623157E308" text="Label" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gpintro" text="%movie_intro" />
+                  <Label fx:id="gpintrotext" text="Label" wrapText="true">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </right>
+</BorderPane>

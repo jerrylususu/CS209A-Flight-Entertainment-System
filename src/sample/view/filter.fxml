@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.FilterController">
+   <center>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="%movie_genre" />
+                  <ListView fx:id="genreLV" prefWidth="320.0" />
+               </children>
+            </VBox>
+            <Label text="&amp;" />
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="%movie_year" />
+                  <ListView fx:id="yearLV" prefWidth="320.0" />
+               </children>
+            </VBox>
+            <Label text="&amp;" />
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="%movie_length" />
+                  <ListView fx:id="lengthLV" prefWidth="320.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="backBTN" onMouseClicked="#setBackBTN" text="&lt;-" />
+            <ImageView fx:id="airlineLogoIV" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+   </top>
+   <bottom>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="confirmBTN" onMouseClicked="#doQuery" text="%confirm" />
+                  <JFXButton fx:id="resetBTN" onMouseClicked="#setResetBTN" text="%reset" />
+               </children>
+            </HBox>
+            <Label fx:id="warnLabel" />
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>

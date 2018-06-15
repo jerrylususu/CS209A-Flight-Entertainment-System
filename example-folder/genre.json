@@ -1,0 +1,139 @@
+[{
+    "id": 1,
+    "name": {
+        "en_US": "Action",
+		"zh_CN": "动作"
+    }
+}, {
+    "id": 2,
+    "name": {
+        "en_US": "Adventure",
+		"zh_CN": "冒险"
+    }
+}, {
+    "id": 3,
+    "name": {
+        "en_US": "Animation",
+		"zh_CN": "动画"
+    }
+}, {
+    "id": 4,
+    "name": {
+        "en_US": "Biography",
+		"zh_CN": "传记"
+    }
+}, {
+    "id": 5,
+    "name": {
+        "en_US": "Comedy",
+		"zh_CN": "喜剧"
+    }
+}, {
+    "id": 6,
+    "name": {
+        "en_US": "Crime",
+		"zh_CN": "犯罪"
+    }
+}, {
+    "id": 7,
+    "name": {
+        "en_US": "Documentary",
+		"zh_CN": "纪录片"
+    }
+}, {
+    "id": 8,
+    "name": {
+        "en_US": "Drama",
+		"zh_CN": "戏剧"
+    }
+}, {
+    "id": 9,
+    "name": {
+        "en_US": "Family",
+		"zh_CN": "家庭"
+    }
+}, {
+    "id": 10,
+    "name": {
+        "en_US": "Fantasy",
+		"zh_CN": "奇幻"
+    }
+}, {
+    "id": 11,
+    "name": {
+        "en_US": "Film-Noir",
+		"zh_CN": "黑色"
+    }
+}, {
+    "id": 12,
+    "name": {
+        "en_US": "History",
+		"zh_CN": "历史"
+    }
+}, {
+    "id": 13,
+    "name": {
+        "en_US": "Horror",
+		"zh_CN": "恐怖"
+    }
+}, {
+    "id": 14,
+    "name": {
+        "en_US": "Music",
+		"zh_CN": "音乐"
+    }
+}, {
+    "id": 15,
+    "name": {
+        "en_US": "Musical",
+		"zh_CN": "音乐剧"
+    }
+}, {
+    "id": 16,
+    "name": {
+        "en_US": "Mystery",
+		"zh_CN": "神秘"
+    }
+}, {
+    "id": 17,
+    "name": {
+        "en_US": "Romance",
+		"zh_CN": "浪漫"
+    }
+}, {
+    "id": 18,
+    "name": {
+        "en_US": "Sci-Fi",
+		"zh_CN": "科幻"
+    }
+}, {
+    "id": 19,
+    "name": {
+        "en_US": "Short",
+		"zh_CN": "短片"
+    }
+}, {
+    "id": 20,
+    "name": {
+        "en_US": "Sport",
+		"zh_CN": "运动"
+    }
+}, {
+    "id": 21,
+    "name": {
+        "en_US": "Thriller",
+		"zh_CN": "惊悚"
+    }
+}, {
+    "id": 22,
+    "name": {
+        "en_US": "War",
+		"zh_CN": "战争"
+    }
+}, {
+    "id": 23,
+    "name": {
+        "en_US": "Western",
+		"zh_CN": "西方"
+    }
+}]

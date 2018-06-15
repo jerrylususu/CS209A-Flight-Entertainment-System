@@ -1,0 +1,23 @@
+{
+    "id": 16,
+    "langMovie": {
+        "en_US": {
+            "name": "Red Cliff",
+            "length": 146,
+            "directors": ["John Woo"],
+            "actors": ["Tony Chiu-Wai Leung", "Takeshi Kaneshiro", "Fengyi Zhang"],
+            "intro": "The first chapter of a two-part story centered on a battle fought in China\u0027s Three Kingdoms period (220-280 A.D.).",
+            "year": 2008,
+            "country": "China"
+        }, "zh_CN": {
+            "name": "赤壁",
+            "length": 146,
+            "directors": ["吴宇森"],
+            "actors": ["梁朝伟", "金城武", "林志玲", "张丰毅", "赵薇", "张震", "胡军", "中村狮童"],
+            "intro": "《赤壁》是2008年吴宇森执导的电影，由梁朝伟、金城武、林志玲、张丰毅、赵薇、张震、胡军、中村狮童主演[10]，从2005年展开筹备，2007年3月开拍。电影分上、下部，2008年7月10日电影上映（上部），2008年11月1日赤壁在拥有广泛三国文化群众基础的日本545家电影院同时上映。电影下部《赤壁2：决战天下》于2009年1月7日在中国首映。整部电影剧情以赤壁之战等三国历史故事为题材，包括《三国演义》孔明草船借箭及火烧连环船等情节。",
+            "year": 2008,
+            "country": "中国"
+        }
+    },
+    "genreIds": [1, 2, 8]
+}

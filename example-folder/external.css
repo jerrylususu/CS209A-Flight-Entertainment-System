@@ -1,0 +1,23 @@
+.button {
+    -fx-background-color: #3949AB;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: #3949AB;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+/* .root {
+    -fx-background-image: url('index2.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: top left;
+} */
+
+.list-cell {
+    -fx-font-size: 18;
+    -fx-alignment: center;
+}

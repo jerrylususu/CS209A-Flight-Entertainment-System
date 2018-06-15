@@ -1,0 +1,24 @@
+{
+    "id": 10,
+    "langMovie": {
+        "en_US": {
+            "name": "Lost in Thailand",
+            "length": 105,
+            "directors": ["Zheng Xu"],
+            "actors": ["Zheng Xu", "Baoqiang Wang", "Bo Huang"],
+            "intro": "On a wild road trip, three men find inner peace in the city that never sleeps.",
+            "year": 2012,
+            "country": "Hong Kong"
+        },
+        "zh_CN": {
+            "name": "人在囧途",
+            "length": 105,
+            "directors": ["叶伟民"],
+            "actors": ["徐峥", "王宝强"],
+            "intro": "《人在囧途》是由武汉华旗影视制作公司出品，叶伟民执导，文隽监制，徐峥、王宝强主演的喜剧电影。该片于2010年6月4日上映。影片以春运为背景，讲述了玩具集团老板李成功（徐峥饰）和讨债的挤奶工牛耿（王宝强饰）前往长沙的旅程故事。",
+            "year": 2012,
+            "country": "中国香港"
+        }
+    },
+    "genreIds": [2, 5, 8]
+}

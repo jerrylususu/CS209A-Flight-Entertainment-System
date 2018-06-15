@@ -1,0 +1,24 @@
+{
+    "id": 8,
+    "langMovie": {
+        "en_US": {
+            "name": "In the Mood for Love",
+            "length": 98,
+            "directors": ["Kar-Wai Wong"],
+            "actors": ["Tony Chiu-Wai Leung", "Maggie Cheung", "Ping Lam Siu"],
+            "intro": "Two neighbors, a woman and a man, form a strong bond after both suspect extramarital activities of their spouses. However, they agree to keep their bond platonic so as not to commit similar wrongs.",
+            "year": 2000,
+            "country": "Hong Kong"
+        },
+        "zh_CN": {
+            "name": "花样年华",
+            "length": 98,
+            "directors": ["王家卫"],
+            "actors": ["梁朝伟", "张曼玉"],
+            "intro": "《花样年华》是由王家卫执导，梁朝伟、张曼玉主演的爱情片，于2000年9月29日在中国香港上映。该片以20世纪60年代的香港为背景，讲述了苏丽珍和周慕云在发现各自的配偶有婚外情后，两人开始互相接触并随之产生感情的故事。2000年，梁朝伟凭借该片获得第53届戛纳国际电影节最佳男主角奖。2001年，该片获得法国电影凯撒奖最佳外语片奖。2009年，影片被美国CNN评选为“最佳亚洲电影”第一位",
+            "year": 2000,
+            "country": "中国香港"
+        }
+    },
+    "genreIds": [8, 17]
+}

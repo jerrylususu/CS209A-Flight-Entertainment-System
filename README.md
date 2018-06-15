@@ -5,7 +5,7 @@ Group Number: 8
 Group Members: Lu Zhirui, Zhou Ying, Li Zhao
 
 ## Acknowledgement
-Prof. Stephane, TA Leo, other students, Youtube, CSDN and other web resources.
+Prof. Stephane, TA Leo, other students, Youtube, CSDN, Stack Overflow and other web resources.
 Special Thanks to Al-assad @ Github for his/her project "Simple-Media-Player". [Link to Github]("https://github.com/Al-assad/Simple-Media-Player") We used some code from this project and it helped a lot.
 
 ## Highlightes
